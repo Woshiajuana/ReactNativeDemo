@@ -12,6 +12,7 @@ import {
     View
 } from 'react-native';
 import LifecycleComponent from './LifecycleComponent';
+import PropsComponent from './PropsComponent'
 
 export default class setup extends Component {
     constructor (props) {
@@ -34,6 +35,7 @@ export default class setup extends Component {
                     }}
                 >{text}</Text>
                 {view}
+                <PropsComponent/>
             </View>
         );
     }
